@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt
 import csv
 import os
 
-cnx = mysql.connector.connect(user='root', password='Espana2003',
-                host='127.0.0.1')
+cnx = mysql.connector.connect(user='root', password='xxxx',
+                host='xxxxx')
 
 cursor = cnx.cursor()
 cursor.execute("DROP DATABASE hospital")
@@ -20,8 +20,8 @@ cnx.commit()
 cursor.close()
 cnx.close()
 
-cnx = mysql.connector.connect(user='root', password='Espana2003',
-                host='127.0.0.1',
+cnx = mysql.connector.connect(user='root', password='xxxxx',
+                host='xxxxx',
                 database='hospital')
 cursor = cnx.cursor()
 
